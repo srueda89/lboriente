@@ -1,21 +1,27 @@
+import { GoogleLoginButton } from "@/components/auth/GoogleLoginButton";
+import { Breadcrumb } from "@/components/layout/Breadcrumb";
+import { PollaHero } from "@/components/polla/PollaHero";
+
 export default function LoginPage() {
   return (
-    <main className="min-h-screen bg-[#050816] px-6 py-12 text-white">
-      <section className="mx-auto flex min-h-[70vh] max-w-md flex-col justify-center">
-        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-blue-300">
-          Polla LBOriente
-        </p>
+    <main className="px-6 py-10">
+      <div className="mx-auto max-w-6xl space-y-8">
+        <Breadcrumb items={[{ label: "Entrar" }]} />
 
-        <h1 className="mt-4 text-4xl font-black">Entrar</h1>
+        <PollaHero
+          title="Entrar"
+          description="Ingresa con Google para registrar tus predicciones en la Polla Mundial."
+        />
 
-        <p className="mt-4 text-white/70">
-          Ingresa con Google para registrar tus predicciones.
-        </p>
+        <section className="mx-auto max-w-md rounded-3xl border border-blue-400/15 bg-blue-950/20 p-6 shadow-lg shadow-blue-950/20">
+          <GoogleLoginButton />
 
-        <button className="mt-8 rounded-full bg-white px-6 py-3 text-sm font-bold text-[#050816]">
-          Continuar con Google
-        </button>
-      </section>
+          <p className="mt-4 text-center text-xs leading-5 text-white/50">
+            Al ingresar, solo guardaremos tu nombre y correo para gestionar el
+            ranking.
+          </p>
+        </section>
+      </div>
     </main>
   );
 }
