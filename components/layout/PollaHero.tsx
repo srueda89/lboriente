@@ -12,10 +12,10 @@ export function PollaHero({
   children,
 }: PollaHeroProps) {
   return (
-    <section className="relative overflow-hidden rounded-3xl border border-blue-400/15 bg-blue-950/20 px-6 py-10 shadow-2xl shadow-blue-950/30 sm:px-10 sm:py-14">
-      <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-blue-600/30 blur-3xl" />
-      <div className="absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl" />
-      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-cyan-300/50 to-transparent" />
+    <section className="relative overflow-hidden rounded-3xl border border-blue-300/20 bg-blue-950/35 px-6 py-10 shadow-2xl shadow-blue-950/40 sm:px-10 sm:py-14">
+      <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-blue-500/35 blur-3xl" />
+      <div className="absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-cyan-400/15 blur-3xl" />
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-cyan-300/60 to-transparent" />
 
       <div className="relative max-w-3xl">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-300">
@@ -27,7 +27,7 @@ export function PollaHero({
         </h1>
 
         {description ? (
-          <p className="mt-6 text-lg leading-8 text-white/70">
+          <p className="mt-6 text-lg leading-8 text-blue-50/75">
             {description}
           </p>
         ) : null}

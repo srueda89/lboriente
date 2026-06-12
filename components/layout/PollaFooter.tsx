@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function PollaFooter() {
   return (
-    <footer className="border-t border-blue-400/10 bg-[#020617] px-6 py-8 text-white">
+    <footer className="border-t border-blue-400/15 bg-[#020817]/90 px-6 py-8 text-white">
       <div className="mx-auto flex max-w-6xl flex-col gap-4 text-sm text-white/50 md:flex-row md:items-center md:justify-between">
         <p>© {new Date().getFullYear()} Polla LBOriente.</p>
 

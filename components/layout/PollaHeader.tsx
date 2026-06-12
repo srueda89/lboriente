@@ -21,7 +21,7 @@ const navItems = [
 
 export function PollaHeader() {
   return (
-    <header className="sticky top-0 z-50 border-b border-blue-400/10 bg-[#020617]/90 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-blue-400/15 bg-[#020817]/85 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6 py-5">
         <Link href="/polla-mundial" className="group">
           <span className="block text-xs font-semibold uppercase tracking-[0.28em] text-cyan-300">
@@ -46,7 +46,7 @@ export function PollaHeader() {
 
         <Link
           href="/polla-mundial/login"
-          className="rounded-full border border-blue-400/30 bg-blue-600/25 px-4 py-2 text-sm font-bold text-white transition hover:border-cyan-300 hover:bg-blue-500/30"
+          className="rounded-full border border-blue-300/35 bg-blue-600/30 px-4 py-2 text-sm font-bold text-white shadow-lg shadow-blue-950/40 transition hover:border-cyan-300 hover:bg-blue-500/40"
         >
           Entrar
         </Link>
