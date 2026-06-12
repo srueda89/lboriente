@@ -17,8 +17,8 @@ export default function LoginPage() {
           <GoogleLoginButton />
 
           <p className="mt-4 text-center text-xs leading-5 text-white/50">
-            Al ingresar, solo guardaremos tu nombre y correo para gestionar el
-            ranking.
+            Al ingresar, solo guardaremos la información necesaria para administrar tu
+            participación, tus predicciones y el ranking.
           </p>
         </section>
       </div>
